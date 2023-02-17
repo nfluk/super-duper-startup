@@ -1,0 +1,52 @@
+body {
+	background: url("header.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Playfair Display', serif;
+	font-family: 'PT Serif', serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	background-color: #F05F44;
+	color: white;
+	font-size: 1rem;
+	text-transform: uppercase;
+	padding: 1rem;
+	border: none;
+	border-radius: 30px;
+}
+
+button:hover {
+	background-color: #ee4727;
+	padding: 1.1rem;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.sub-container {
+	height: 12%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.line {
+	border-top: 2px solid #F05F44;
+	width: 4rem;
+}
